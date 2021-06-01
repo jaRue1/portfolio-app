@@ -36,7 +36,7 @@ function Experience() {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2020</h3>
+            <h3>2020-2021</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Veritatis eaque, perspiciatis ea maiores pariatur accusamus
@@ -49,7 +49,7 @@ function Experience() {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2020-2021</h3>
+            <h3>2021-2022</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Veritatis eaque, perspiciatis ea maiores pariatur accusamus
