@@ -9,10 +9,16 @@ body{
 :root{
   --primary-white: white;
   --primary-orange: #FF5F1F;
-  --primary-black: rgba(255,255,255, 0)
+  --primary-black: rgba(255,255,255, 0);
+  --primary-red: #cf0707;
+  --primary-hover-red: #f33501;
 }
+/* ------------------------------------Navbar--------------------------------- */
 
 /* Menu Links */
+nav{
+  z-index: 2;
+}
 nav a.nav-link{
 font-weight: 500;
 letter-spacing: 0.0375rem;
@@ -42,4 +48,76 @@ nav ul li{
   max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem;
+}
+@media (max-width:768px){
+  .navbar-brand{
+    width: 7rem;
+  }
+}
+/* ------------------------------------Header--------------------------------- */
+.header-wrapper{
+  position:relative;
+  background: url(laptop.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info{
+  display: flex; 
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+  z-index: 2;
+}
+
+.main-info h1{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+@media(max-width:768px){
+  .main-info h1{
+    font-size: 1.7rem !important;
+  }
+}
+
+/* ------------------------------------Typed Text--------------------------------- */
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+@media(max-width:768px){
+  .typed-text{
+    font-size: 1.3rem !important;
+  }
+}
+/* ------------------------------------HEADER BUTTON--------------------------------- */
+.btn-main-offer{
+  border: 1px solid var(--primary-red);
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: var(--primary-hover-red)
+}
+/* ------------------------------------Particles--------------------------------- */
+.tsparticles-canvas-el{
+position: absolute;
+height: 100vh;
+width: 100vw;
+z-index: 1;
+}
+@media(max-width:768px) {
+  .particles-canvas{
+    display: none;
+  }
 }
