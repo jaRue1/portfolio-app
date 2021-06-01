@@ -7,17 +7,24 @@ body{
   width: 16.25rem;
 }
 :root{
-  --primary-white: white;
+  --primary-white: #ffffff;
+  --primary-lightgrey: #f4f4f4;
   --primary-orange: #FF5F1F;
   --primary-black: rgba(255,255,255, 0);
+  --secondary-black: #080808;
   --primary-red: #cf0707;
   --primary-hover-red: #f33501;
 }
 /* ------------------------------------Navbar--------------------------------- */
+.logo{
+  max-width: 100%;
+}
+
 
 /* Menu Links */
 nav{
   z-index: 2;
+  background-color:#080808;
 }
 nav a.nav-link{
 font-weight: 500;
@@ -57,9 +64,9 @@ nav ul li{
 /* ------------------------------------Header--------------------------------- */
 .header-wrapper{
   position:relative;
-  background: url(wall-and-laptop-background.jpg) no-repeat;
+  background: url(code2.jpeg) no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   height: 90vh;
 }
 .main-info{
@@ -99,7 +106,7 @@ nav ul li{
 }
 /* ------------------------------------HEADER BUTTON--------------------------------- */
 .btn-main-offer{
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--secondary-black);
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
@@ -107,7 +114,7 @@ nav ul li{
 }
 .btn-main-offer:hover{
   text-decoration: none;
-  background-color: var(--primary-hover-red)
+  background-color: var(--secondary-black)
 }
 /* ------------------------------------Particles--------------------------------- */
 .tsparticles-canvas-el{
@@ -145,4 +152,52 @@ z-index: 1;
   .profile{
     width: 10rem;
   }
+}
+/* ------------------------------------Services--------------------------------- */
+.services{
+  text-align: center;
+  padding: 2rem;
+  background: var(--primary-lightgrey)
+}
+
+.services h1{
+  text-transform: uppercase;
+  color: var(--secondary-black);
+}
+.services .circle{
+  position: relative;
+  margin: 0.375rem auto;
+  background: var(--primary-orange);
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.services .icon {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.services .box{
+  height: 16rem;
+  border-bottom: 0.3125rem solid var(--primary-orange);
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background: var(--primary-white);
+}
+.services .box:hover{
+  background: var(--primary-orange);
+  border-bottom: 0.3125rem solid var(--secondary-black);
+  color: var(--secondary-black);
+}
+.services .box:hover .icon{
+  color: var(--secondary-black);
+}
+.services .box:hover .circle{
+  background: var(--primary-white);
+}
+.services .box:hover p {
+  color: var(--primary-white);
 }
