@@ -9,6 +9,8 @@ body{
 :root{
   --primary-white: #ffffff;
   --primary-lightgrey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-darkgrey: #666666;
   --primary-orange: #FF5F1F;
   --primary-black: rgba(255,255,255, 0);
   --secondary-black: #080808;
@@ -133,6 +135,9 @@ z-index: 1;
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.about-heading{
+  text-transform: uppercase;
+}
 .photo-wrap{
   display: flex;
   justify-content: center;
@@ -160,7 +165,7 @@ z-index: 1;
   background: var(--primary-lightgrey)
 }
 
-.services h1{
+.services h2{
   text-transform: uppercase;
   color: var(--secondary-black);
 }
@@ -200,4 +205,14 @@ z-index: 1;
 }
 .services .box:hover p {
   color: var(--primary-white);
+}
+/* ------------------------------------Experience--------------------------------- */
+.experience-wrapper{
+  position: absolute;
+  padding: 3.125rem;
+  overflow: hidden;
+}
+.experience h2{
+text-transform: uppercase;
+color: var(--primary-orange);
 }

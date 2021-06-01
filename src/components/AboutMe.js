@@ -10,7 +10,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-lg-6 col-xm-12">
-          <h1 className= 'about-heading'>About Me</h1>
+          <h2 className= 'about-heading'>About Me</h2>
           <p>
             hello I am Rue, Lorem, ipsum dolor sit amet consectetur adipisicing
             elit. Explicabo error laborum fuga corrupti labore rem voluptatum

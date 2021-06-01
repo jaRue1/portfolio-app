@@ -5,7 +5,7 @@ import { faDesktop, faFileCode, faMobile, faDatabase} from '@fortawesome/free-so
 const Services = () => {
   return (
     <div className='services'>
-      <h1 className = 'services-heading'>Services</h1>
+      <h2 className = 'services-heading'>Services</h2>
         <div className= 'container'>
           <div className='row'>
             <div className="col-md-3 col-sm-5">
