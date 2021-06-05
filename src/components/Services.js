@@ -12,7 +12,7 @@ const Services = () => {
               <div className="box">
                 <div className="circle"><FontAwesomeIcon className='icon' icon={faFileCode} size="2x"/></div>
                 <h3>Web Development </h3>
-                <p>I approach each project individually and always focus on providing value while completing the objective</p>
+                <p>I approach each project individually and always focus on providing value.</p>
               </div>
             </div> 
             <div className="col-lg-3 col-md-6 col-sm-6">
