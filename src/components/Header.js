@@ -14,6 +14,7 @@ function Header() {
       />
         <a href="#" className="btn-main-offer">Contact Me</a>
       </div>
+      <div className="overflow-header"></div>
     </div>
   )
 }

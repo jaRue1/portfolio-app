@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/* ---------------------global rule -------------------- */
+.row > * {
+  flex-shrink: 0;
+  /* width: 100%; */
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) / 2);
+  padding-left: calc(var(--bs-gutter-x) / 2);
+  margin-top: var(--bs-gutter-y);
+}
+
 body{
   font-family: "Roboto" sans-serif;
 }
@@ -70,8 +80,9 @@ nav ul li{
   position:relative;
   background: url(city.jpeg) no-repeat;
   background-size: cover;
+
   background-position: top;
-  height: 90vh;
+  height: 80vh;
 }
 .main-info{
   display: flex; 
@@ -92,6 +103,20 @@ nav ul li{
   color: var(--primary-orange);
   text-transform: uppercase;
 }
+
+.overflow-header{
+  position: absolute;
+  opacity: 0;
+  background: var(--secondary-black);
+  width: 120rem;
+  height: 48.5rem;
+}
+.header-wrapper:hover .overflow-header{
+  opacity: 80%;
+  transform: .9s ease-in-out;
+}
+
+
 @media(max-width:768px){
   .main-info h1{
     font-size: 1.7rem !important;
@@ -297,4 +322,47 @@ color: var(--primary-orange);
     direction: ltr;
     width: 100%;
   }
+}
+
+/* -------------------------Portfolio -------------------------- */
+.portfolio-wrapper{
+  background: var(--primary-darkgrey);
+  padding: 3rem 0;
+}
+.portfolio-images{
+  width: 15rem;
+  border: 1px solid var(--primary-orange);
+  padding: 0 0.5rem;
+}
+.portfolio-image-box{
+  position: relative;
+  margin: 1rem;
+}
+/* -------------------------overflow -------------------------- */
+.overflow{
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-grey);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--primary-orange);
+  cursor: pointer;
+}
+.portfolio-image-box:hover .overflow{
+  opacity: 40%;
+  transition: .3s ease-in-out;
+}
+.portfolio-icon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+.portfolio-image-box:hover .portfolio-icon{
+  opacity:70%;
+  transition: .3s ease-in-out;
+  cursor: pointer;
 }

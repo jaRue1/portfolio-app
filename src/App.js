@@ -6,6 +6,7 @@ import Header from "./components/Header"
 import AboutMe from "./components/AboutMe"
 import Services from "./components/Services"
 import Experience from "./components/Experience"
+import Portfolio from "./components/Portfolio"
 function App() {
   return (
     <>
@@ -15,7 +16,7 @@ function App() {
       particles: {
         number: {
           value : 30, density: {
-            enable: true , value_area: 1200
+            enable: true , value_area: 800
           }
         },
         shape: {
@@ -33,6 +34,7 @@ function App() {
       <AboutMe/>
       <Services/>
       <Experience/>
+      <Portfolio/>
     </>
   )
 }
