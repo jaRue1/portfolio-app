@@ -12,7 +12,7 @@ function Portfolio() {
    <div className="portfolio-wrapper">
      <div className="container">
        <div className="h1 text-uppercase text-center py-5">portfolio</div>
-       <div className="image-box-wrapper row justify-content-center">
+       <div className="image-box-wrapper">
          
         <div className="portfolio-image-box">
           <img className="portfolio-images" src={netflix} alt="Desktop app" />
