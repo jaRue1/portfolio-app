@@ -12,8 +12,10 @@ import "react-popupbox/dist/react-popupbox.css"
 
 
 
-
+ 
 function Portfolio() {
+
+// Need to trouble shoot why titles are rendering the same for each popup
 
   // Project Linkx
 const openPopupboxLinkx = () => {
