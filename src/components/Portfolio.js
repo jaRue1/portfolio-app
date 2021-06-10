@@ -44,6 +44,7 @@ const popupboxConfigLinkx = {
 const openPopupboxRestaurants = () => {
   const content = (
   <>
+  <h2>Restaurants web app</h2>
   <img className="portfolio-image-popupbox" src={cityGuide} alt="Restaurants"/>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum necessitatibus ratione praesentium </p>
   <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1")}>Learn More</a>
@@ -65,6 +66,7 @@ const popupboxConfigRestaurants = {
 const openPopupboxPortfolio = () => {
   const content = (
   <>
+   <h2>Portfolio web app</h2>
   <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio"/>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum necessitatibus ratione praesentium </p>
   <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1")}>Learn More</a>
@@ -86,6 +88,7 @@ const popupboxConfigPortfolio = {
     const openPopupboxDesktop = () => {
       const content = (
       <>
+      <h2>Desktop web app</h2>
       <img className="portfolio-image-popupbox" src={taskManager} alt="Desktop"/>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum necessitatibus ratione praesentium </p>
       <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1")}>Learn More</a>
