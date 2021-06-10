@@ -325,11 +325,12 @@ color: var(--primary-orange);
 
 /* -------------------------Portfolio -------------------------- */
 .portfolio-wrapper{
-  background: var(--primary-darkgrey);
+  background: url(city4.jpeg) no-repeat;
+  background-size: cover;
   padding: 3rem 0;
 }
 .portfolio-wrapper .h1{
-  color: var(--primary-orange)
+  color: #ffffff
 }
 .portfolio-images{
   width: 15rem;
