@@ -1,8 +1,8 @@
 import React from 'react'
-import netflix from '../images/netflix.png'
-import portfolio from '../images/portfolio.png'
-import cityGuide from '../images/city-guide-app.png'
-import taskManager from '../images/task-manager.png'
+import majorLinkx from '../images/my-images/majorlinkx.png'
+import portfolio from '../images/my-images/portfolio.png'
+import affirm from '../images/my-images/affirm.png'
+import taskManager from '../images/my-images/xchange.png'
 // Font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
@@ -22,7 +22,7 @@ const openPopupboxLinkx = () => {
   const content = (
   <>
   <h2>Majorlinkx.io project</h2>
-  <img className="portfolio-image-popupbox" src={netflix} alt="linkx"/>
+  <img className="portfolio-image-popupbox" src={majorLinkx} alt="linkx"/>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum necessitatibus ratione praesentium </p>
   <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("http://majorlinkx.io-app.s3-website-us-east-1.amazonaws.com/")}>Continue</a>
   </>
@@ -45,7 +45,7 @@ const openPopupboxRestaurants = () => {
   const content = (
   <>
   <h2>Restaurants web app</h2>
-  <img className="portfolio-image-popupbox" src={cityGuide} alt="Restaurants"/>
+  <img className="portfolio-image-popupbox" src={affirm} alt="Restaurants"/>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum necessitatibus ratione praesentium </p>
   <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1")}>Learn More</a>
   </>
@@ -114,7 +114,7 @@ const popupboxConfigPortfolio = {
        <div className="image-box-wrapper">
          
         <div className="portfolio-image-box" onClick={openPopupboxLinkx}>
-          <img className="portfolio-images" src={netflix} alt=" majorlinkx web app" />
+          <img className="portfolio-images" src={majorLinkx} alt=" majorlinkx web app" />
           <div className="overflow"></div>
           <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus}/>
         </div>
@@ -122,7 +122,7 @@ const popupboxConfigPortfolio = {
        {/*  */}
       
         <div className="portfolio-image-box"onClick={openPopupboxRestaurants}>
-         <img className="portfolio-images" src={cityGuide} alt="restaurant web app" />
+         <img className="portfolio-images" src={affirm} alt="restaurant web app" />
          <div className="overflow"></div>
          <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus}/>
         </div>
