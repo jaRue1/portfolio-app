@@ -328,6 +328,9 @@ color: var(--primary-orange);
   background: var(--primary-darkgrey);
   padding: 3rem 0;
 }
+.portfolio-wrapper .h1{
+  color: var(--primary-orange)
+}
 .portfolio-images{
   width: 15rem;
   border: 1px solid var(--primary-orange);
@@ -382,4 +385,43 @@ color: var(--primary-orange);
   cursor: pointer;
 }
 
-/* -------------------------overflow -------------------------- */
+/* ------------------------- Popup Box-------------------------- */
+
+.portfolio-image-popupbox{
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+.hyper-link{
+  cursor: pointer;
+  color: var(--secondary-black);
+
+}
+.hyper-link:hover{
+  
+  color: var(--primary-orange);
+  
+}
+
+/* -------------- Media for Portfolio -------------------- */
+@media(max-width: 768px){
+  .portfolio-image-popupbox{
+  width: 100%;
+  }
+}
+
+@media(max-height: 570px){
+  .popupbox-wrapper{
+    height: 100%;
+  }
+  .portfolio-image-popupbox{
+  width: 50%;
+  }
+}
+@media(max-height: 280px){
+  .popupbox-wrapper{
+    height: 90%;
+  }
+  .portfolio-image-popupbox{
+  width: 30%;
+  }
+}
