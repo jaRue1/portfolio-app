@@ -2,7 +2,7 @@ import React from 'react'
 import majorLinkx from '../images/my-images/majorlinkx.png'
 import portfolio from '../images/my-images/portfolio.png'
 import affirm from '../images/my-images/affirm.png'
-import taskManager from '../images/my-images/xchange.png'
+import taskManager from '../images/my-images/productPage.png'
 // Font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
