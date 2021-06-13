@@ -544,10 +544,10 @@ color: var(--primary-orange);
 }
 .line{
   position: relative;
-  top: -0.8rem;
+  top: -1.020rem;
   width: 0;
-  height: 0.125rem;
-  color: blue;
+  height: 0.175rem;
+  background: var(--primary-orange);
   display: inline-block;
 }
 input:focus+.line, textarea:focus+.line{

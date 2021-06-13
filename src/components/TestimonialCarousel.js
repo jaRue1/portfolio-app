@@ -2,10 +2,10 @@ import React from "react"
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 
-import avatar1 from "../images/avatars/avatar-1.png"
-import avatar2 from "../images/avatars/avatar-2.png"
-import avatar3 from "../images/avatars/avatar-3.png"
-import avatar4 from "../images/avatars/avatar-4.png"
+import nikki from "../images/avatars/nikki-allen.jpeg"
+import vitoria from "../images/avatars/vitoria-roas.jpeg"
+import jonah from "../images/avatars/jonah-allen.jpeg"
+import kevin from "../images/avatars/kevin-choi.jpeg"
 
 function TestimonialCarousel() {
   let rec1 = "Nikki Allen"
@@ -18,17 +18,22 @@ function TestimonialCarousel() {
   let array = []
   return (
     <Carousel
-    showArrows={true}
-    infiniteLoop={true}
-    showThumbs={false}
-    showStatus={false}
-    autoPlay={true}
-    interval={5000}
+      showArrows={true}
+      infiniteLoop={true}
+      showThumbs={false}
+      showStatus={false}
+      autoPlay={true}
+      interval={5000}
     >
       <>
-        <img src={avatar1} alt="Nikki" />
+        <img src={nikki} alt="Nikki" />
         <div className="my-carousel">
-          <h3>{rec1}</h3>
+          <a
+            href="https://www.linkedin.com/in/nicole-allen-37736b20b/"
+            target="_blank"
+          >
+            <h3>{rec1}</h3>
+          </a>
           <p>
             Rue is one of the most hardworking professionals I have ever met. He
             is incredibly team oriented, always teaching those around him and
@@ -37,9 +42,14 @@ function TestimonialCarousel() {
         </div>
       </>
       <>
-        <img src={avatar2} alt="Vitoria" />
+        <img src={vitoria} alt="Vitoria" />
         <div className="my-carousel">
-          <h3>{rec2}</h3>
+          <a
+            href="https://www.linkedin.com/in/vitoria-roas-9b542618a/"
+            target="_blank"
+          >
+            <h3>{rec2}</h3>
+          </a>
           <p>
             Jarue is one of the most hardworking individuals I know. He pushes
             himself to improve his skills. He is not only a great leader but
@@ -48,9 +58,12 @@ function TestimonialCarousel() {
         </div>
       </>
       <>
-        <img src={avatar3} alt="Jonah" />
+        <img src={jonah} alt="Jonah" />
         <div className="my-carousel">
-          <h3>{rec3}</h3>
+          <a href="https://www.linkedin.com/in/jonahsallen/" target="_blank">
+            <h3>{rec3}</h3>
+          </a>
+
           <p>
             Rue has an amazing work ethic. He goes out of his way to help others
             and is one of the most real and down-to-earth people I have ever
@@ -60,9 +73,11 @@ function TestimonialCarousel() {
         </div>
       </>
       <>
-        <img src={avatar4} alt="Kevin" />
+        <img src={kevin} alt="Kevin" />
         <div className="my-carousel">
-          <h3>{rec4}</h3>
+          <a href="https://www.linkedin.com/in/kevinyc/" target="_blank">
+            <h3>{rec4}</h3>
+          </a>
           <p>
             When you’re in the presence of Rue, it’s a blessing. Rue is one of
             the most talented, brilliant and nicest person I have ever met in my
