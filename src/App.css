@@ -83,7 +83,7 @@ nav ul li{
   background-size: cover;
 
   background-position: top;
-  height: 80vh;
+  height: 100vh;
 }
 .main-info{
   display: flex; 
@@ -402,6 +402,9 @@ color: var(--primary-orange);
   
   color: var(--primary-orange);
   
+}
+.popupbox-wrapper{
+  margin: 7rem;
 }
 
 /* -------------- Media for Portfolio -------------------- */
