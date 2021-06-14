@@ -1,39 +1,39 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
-import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faGoogle,faGithub, faAmazon, faReact,} from '@fortawesome/free-brands-svg-icons'
 import { faDesktop, faFileCode, faMobile, faDatabase} from '@fortawesome/free-solid-svg-icons';
 const Services = () => {
   return (
     <div className='services'>
-      <h2 className = 'services-heading'>Services</h2>
+      <h2 className = 'services-heading'>Top Skills</h2>
         <div className= 'container'>
           <div className='row'>
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box">
-                <div className="circle"><FontAwesomeIcon className='icon' icon={faFileCode} size="2x"/></div>
-                <h3>Web Development </h3>
-                <p>I approach each project individually and always focus on providing value.</p>
+                <div className="circle"><FontAwesomeIcon className='icon' icon={faReact} size="2x"/></div>
+                <h3>React</h3>
+                <p>I have built serval applications user interface's using this framework</p>
               </div>
             </div> 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box">
-              <div className="circle"><FontAwesomeIcon className='icon' icon={faDesktop} size="2x"/></div>
-                <h3>Web Design </h3>
-                <p>I design with intention. Build with a purpose. Test for optimization.  </p>
+              <div className="circle"><FontAwesomeIcon className='icon' icon={faGithub} size="2x"/></div>
+                <h3>Git</h3>
+                <p>I have worked on larger projects and resolve complex merge conflicts. </p>
               </div>
             </div> 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box">
-              <div className="circle"><FontAwesomeIcon className='icon' icon={faMobile} size="2x"/></div>
-                <h3>Mobile Application</h3>
-                <p> I build mobile applications for specific tasks and they are focused in nature.</p>
+              <div className="circle"><FontAwesomeIcon className='icon' icon={faAmazon} size="2x"/></div>
+                <h3>AWS</h3>
+                <p> Familiar with AWS and its different services, I also have built production environments using AWS as my VPC.</p>
               </div>
             </div> 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box">
               <div className="circle"><FontAwesomeIcon className='icon' icon={faDatabase} size="2x"/></div>
-                <h3>Data Analytics</h3>
-                <p> Familiar with Python and Pandas. Also selenium framework to automate task with bots.</p>
+                <h3>Mongo DB</h3>
+                <p> I have built and used Mongo in several applications with Cloud Atlas.</p>
               </div>
             </div> 
           </div>

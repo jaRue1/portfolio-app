@@ -23,8 +23,14 @@ const openPopupboxLinkx = () => {
   <>
   <h2>Majorlinkx.io project</h2>
   <img className="portfolio-image-popupbox" src={majorLinkx} alt="linkx"/>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum necessitatibus ratione praesentium </p>
-  <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("http://majorlinkx.io-app.s3-website-us-east-1.amazonaws.com/")}>Continue</a>
+  <p>
+    This is a social media application built with React, Express, Node and MongoDB deployed to AWS. 
+    <br/>
+    For music industry professionals to display all their work and connect.
+    <br/>
+    The application showcases full C.R.U.D functionality.
+  </p>
+  <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("http://majorlinkx.io-app.s3-website-us-east-1.amazonaws.com/")}>Try it!</a>
   </>
   )
   PopupboxManager.open({content})
@@ -44,10 +50,14 @@ const popupboxConfigLinkx = {
 const openPopupboxRestaurants = () => {
   const content = (
   <>
-  <h2>Restaurants web app</h2>
+  <h2>Affirmations Web App</h2>
   <img className="portfolio-image-popupbox" src={affirm} alt="Restaurants"/>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum necessitatibus ratione praesentium </p>
-  <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1")}>Learn More</a>
+  <p>
+    Application built with React, Express, Node and Firestore. 
+    <br/>
+    This App showcases logging in user with google authentication, receiving and displaying users data.
+  </p>
+  <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("https://affirm-app-jj.web.app/")}>Try it !</a>
   </>
   )
   PopupboxManager.open({content})
@@ -68,7 +78,7 @@ const openPopupboxPortfolio = () => {
   <>
    <h2>Portfolio web app</h2>
   <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio"/>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum necessitatibus ratione praesentium </p>
+  <p>Portfolio web app built with React , CSS and Bootstrap </p>
   <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1")}>Learn More</a>
   </>
   )
@@ -90,7 +100,7 @@ const popupboxConfigPortfolio = {
       <>
       <h2>Desktop web app</h2>
       <img className="portfolio-image-popupbox" src={taskManager} alt="Desktop"/>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum necessitatibus ratione praesentium </p>
+      <p>Static product page built with HTML and CSS </p>
       <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1")}>Learn More</a>
       </>
       )

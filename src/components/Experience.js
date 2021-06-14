@@ -10,12 +10,14 @@ function Experience() {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2018-2019</h3>
+            <h3>2016-2019</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis eaque, perspiciatis ea maiores pariatur accusamus
-              dolorem quia aliquam dolore animi quibusdam voluptatem itaque eos.
-              Soluta illum excepturi numquam optio alias.
+              Graduated form Florida Atlantic University with honors and
+              received a Bachelors in Management Information Systems with a
+              focus of Cyber Security. Completed Senior project called Nexus
+              which was a Java Application that allowed users to reserve
+              classrooms to study in. Technology used: Java, JSP pages, HTML,CSS
+              and JavaScript.
             </p>
           </div>
         </div>
@@ -23,12 +25,12 @@ function Experience() {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2019-2020</h3>
+            <h3>2019</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis eaque, perspiciatis ea maiores pariatur accusamus
-              dolorem quia aliquam dolore animi quibusdam voluptatem itaque eos.
-              Soluta illum excepturi numquam optio alias.
+              Junior Developer: Troubleshoot various errors on Website platform
+              (incapnet). Used C# object-oriented design to correct errors as
+              well as generate new logic to prevent similar errors from ever
+              occurring within MVC applications
             </p>
           </div>
         </div>
@@ -36,12 +38,13 @@ function Experience() {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2020-2021</h3>
+            <h3>2019-2020</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis eaque, perspiciatis ea maiores pariatur accusamus
-              dolorem quia aliquam dolore animi quibusdam voluptatem itaque eos.
-              Soluta illum excepturi numquam optio alias.
+              Junior System Admin : Troubleshoot various issues with
+              laptops and desktop both hardware and software using RMM (Remote
+              Monitor Management). Handle networking equipment such as switches,
+              routers and firewalls. Also, scan networks and work with the
+              Network Admin to troubleshoot issues. Managing users and resources in Azure Cloud Environment.
             </p>
           </div>
         </div>
@@ -49,12 +52,11 @@ function Experience() {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2021-2022</h3>
+            <h3>2021</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis eaque, perspiciatis ea maiores pariatur accusamus
-              dolorem quia aliquam dolore animi quibusdam voluptatem itaque eos.
-              Soluta illum excepturi numquam optio alias.
+            Software Engineer Career Course	Engineer the Change Scholarship Recipient, Completed Course at Boca Code. Final Project (Majorlinkx.io) 
+            A social media platform that consolidates all of the different social media profiles for musicians / artists.
+            Technology used: JWT, Bcryptjs, React, Express, Node and MongoDB deployed to AWS.
             </p>
           </div>
         </div>

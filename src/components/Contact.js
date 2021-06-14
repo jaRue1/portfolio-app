@@ -28,7 +28,7 @@ const {register, handleSubmit, errors} = useForm();
       r.target.reset();
   }
 
-  function sendEmail(serviceID, templateID, variables, userID) {
+  const sendEmail = (serviceID, templateID, variables, userID) => {
     emailjs.send(serviceID, templateID, variables, userID)
     .then(() => {
         setSuccessMessage("Your message was sent successfully! Expect a response within 24 to 48 hours. ")
@@ -52,15 +52,14 @@ const {register, handleSubmit, errors} = useForm();
                   className="form-control"
                   placeholder="enter your name"
                   name="name"
-                  // ref={
-                  //   register({
-                  //     required: "Please Enter Your Name",
-                  //     maxLength: {
-                  //       value: 20,
-                  //       message: 'Please enter a with fewer than 20 characters'
-                  //     }
-                  //   })
-                  // }
+                  {...register( 'test' , {
+                      required: "Please Enter Your Name",
+                      maxLength: {
+                        value: 20,
+                          message: 'Please enter a with fewer than 20 characters'
+                      }
+                    })
+                 }
                 />
                 <div className="line"></div>
               </div>
