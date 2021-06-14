@@ -31,6 +31,8 @@ const openPopupboxLinkx = () => {
     The application showcases full C.R.U.D functionality.
   </p>
   <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("http://majorlinkx.io-app.s3-website-us-east-1.amazonaws.com/")}>Try it!</a>
+  <br/>
+  <b>GitHub: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/majorlinkx.io")}>Take a Look</a>
   </>
   )
   PopupboxManager.open({content})
@@ -58,6 +60,8 @@ const openPopupboxRestaurants = () => {
     This App showcases logging in user with google authentication, receiving and displaying users data.
   </p>
   <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("https://affirm-app-jj.web.app/")}>Try it !</a>
+  <br/>
+  <b>GitHub: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/affirmations-react-app")}>Take a Look</a>
   </>
   )
   PopupboxManager.open({content})
@@ -79,7 +83,7 @@ const openPopupboxPortfolio = () => {
    <h2>Portfolio web app</h2>
   <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio"/>
   <p>Portfolio web app built with React , CSS and Bootstrap </p>
-  <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/portfolio-app")}>Learn More</a>
+  <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/portfolio-app")}>Take a Look</a>
   </>
   )
   PopupboxManager.open({content})
@@ -98,10 +102,10 @@ const popupboxConfigPortfolio = {
     const openPopupboxDesktop = () => {
       const content = (
       <>
-      <h2>Desktop web app</h2>
+      <h2>Custom Landing Page</h2>
       <img className="portfolio-image-popupbox" src={taskManager} alt="Desktop"/>
       <p>Static product page built with HTML and CSS </p>
-      <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/MyPracticeHTML-CSS/tree/main/landingPage")}>Learn More</a>
+      <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/MyPracticeHTML-CSS/tree/main/landingPage")}>Take a Look</a>
       </>
       )
       PopupboxManager.open({content})

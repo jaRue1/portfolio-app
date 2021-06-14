@@ -9,7 +9,7 @@ import kevin from "../images/avatars/kevin-choi.jpeg"
 
 function TestimonialCarousel() {
   let rec1 = "Nikki Allen"
-  let rec2 = "Vitoria Rojas"
+  let rec2 = "Vitoria Roas"
   let rec3 = "Jonah Allen"
   let rec4 = "Kevin Choi"
   // let rec5 = "Donald "

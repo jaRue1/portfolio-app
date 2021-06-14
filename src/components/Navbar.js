@@ -20,7 +20,7 @@ const Navbar = () => {
               <a className="nav-link" href="#">About</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link " href="#">Services <span className='sr-only'></span></a>
+              <a className="nav-link " href="#">Skills <span className='sr-only'></span></a>
             </li>
             <li className="nav-item active">
               <a className="nav-link " href="#">Experience <span className='sr-only'></span></a>
@@ -28,9 +28,9 @@ const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link" href="#">Portfolio</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#">Contact</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
