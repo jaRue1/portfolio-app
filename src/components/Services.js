@@ -4,7 +4,7 @@ import { faGithub, faAmazon, faReact,} from '@fortawesome/free-brands-svg-icons'
 import {  faDatabase } from '@fortawesome/free-solid-svg-icons';
 const Services = () => {
   return (
-    <div className='services'>
+    <div id='services' className='services'>
       <h2 className = 'services-heading'>Top Skills</h2>
         <div className= 'container'>
           <div className='row'>

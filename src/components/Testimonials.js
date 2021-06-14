@@ -2,7 +2,7 @@ import React from 'react'
 import TestimonialCarousel from './TestimonialCarousel'
  function Testimonials() {
   return (
-  <div className="testimonials">
+  <div id='testimonials' className="testimonials">
     <h2>My Recommendations</h2>
     <div className="container">
       <div className="testimonials-content">

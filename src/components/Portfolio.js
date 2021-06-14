@@ -122,7 +122,7 @@ const popupboxConfigPortfolio = {
 
 
   return (
-   <div className="portfolio-wrapper">
+   <div id='portfolio' className="portfolio-wrapper">
      <div className="container">
        <div className="h1 text-uppercase text-center py-5">portfolio</div>
        <div className="image-box-wrapper">

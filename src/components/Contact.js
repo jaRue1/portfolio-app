@@ -37,7 +37,7 @@ const {register, handleSubmit, errors} = useForm();
 console.log(errors)
 console.log(register)
   return (
-    <div className="contact">
+    <div id='' className="contact">
       <div className="text-center">
         <h2> Let's Connect </h2>
         <p>Please fill out the form below.</p>
