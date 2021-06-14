@@ -79,7 +79,7 @@ const openPopupboxPortfolio = () => {
    <h2>Portfolio web app</h2>
   <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio"/>
   <p>Portfolio web app built with React , CSS and Bootstrap </p>
-  <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1")}>Learn More</a>
+  <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/portfolio-app")}>Learn More</a>
   </>
   )
   PopupboxManager.open({content})
@@ -101,7 +101,7 @@ const popupboxConfigPortfolio = {
       <h2>Desktop web app</h2>
       <img className="portfolio-image-popupbox" src={taskManager} alt="Desktop"/>
       <p>Static product page built with HTML and CSS </p>
-      <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1")}>Learn More</a>
+      <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/MyPracticeHTML-CSS/tree/main/landingPage")}>Learn More</a>
       </>
       )
       PopupboxManager.open({content})
