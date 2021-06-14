@@ -2,7 +2,7 @@ import React from 'react'
 import Typed from "react-typed"
 function Header() {
   return (
-    <div className="header-wrapper">
+    <div id='home' className="header-wrapper">
       <div className="main-info">
       <h1> Software Engineer </h1>
       <Typed
@@ -12,7 +12,7 @@ function Header() {
         backSpeed={40}
         loop
       />
-        <a href="#" className="btn-main-offer">Contact Me</a>
+        {/* <a href="#" className="btn-main-offer">Contact Me</a> */}
       </div>
       <div className="overflow-header"></div>
     </div>
