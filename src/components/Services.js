@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
-import { faFacebookF, faGoogle,faGithub, faAmazon, faReact,} from '@fortawesome/free-brands-svg-icons'
-import { faDesktop, faFileCode, faMobile, faDatabase} from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faAmazon, faReact,} from '@fortawesome/free-brands-svg-icons'
+import {  faDatabase } from '@fortawesome/free-solid-svg-icons';
 const Services = () => {
   return (
     <div className='services'>

@@ -34,7 +34,8 @@ const {register, handleSubmit, errors} = useForm();
         setSuccessMessage("Your message was sent successfully! Expect a response within 24 to 48 hours. ")
       }).catch(err => console.error(`Something went wrong${err}`))
   }
-
+console.log(errors)
+console.log(register)
   return (
     <div className="contact">
       <div className="text-center">
@@ -52,7 +53,7 @@ const {register, handleSubmit, errors} = useForm();
                   className="form-control"
                   placeholder="enter your name"
                   name="name"
-                  {...register( 'test' , {
+                  {...register( 'name' , {
                       required: "Please Enter Your Name",
                       maxLength: {
                         value: 20,
@@ -63,9 +64,9 @@ const {register, handleSubmit, errors} = useForm();
                 />
                 <div className="line"></div>
               </div>
-              {/* <span className="error-message">
-                {errors.name && errors.name.message}
-              </span> */}
+              <span className="error-message">
+                {errors && errors.name && errors.name.message}
+              </span>
               {/* Phone Number  */}
               <div className="text-center">
                 <input
@@ -73,9 +74,16 @@ const {register, handleSubmit, errors} = useForm();
                   className="form-control"
                   placeholder="enter your number"
                   name="phone"
+                  {...register( 'test' , {
+                    required: "Please Enter Your Phone Number",
+                  })
+               }
                 />
                 <div className="line"></div>
               </div>
+              <span className="error-message">
+                {errors && errors.phone && errors.phone.message}
+              </span>
               {/* Email  */}
               <div className="text-center">
                 <input
@@ -83,9 +91,20 @@ const {register, handleSubmit, errors} = useForm();
                   className="form-control"
                   placeholder="enter your email"
                   name="email"
+                  {...register( 'test' , {
+                    required: "Please Enter Your Email",
+                    pattern: {
+                      value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                      message: "invalid Email"
+                    }
+                  })
+               }
                 />
                 <div className="line"></div>
               </div>
+               <span className="error-message">
+                {errors && errors.email && errors.email.message}
+              </span>
               {/* Subject  */}
               <div className="text-center">
                 <input
@@ -93,10 +112,17 @@ const {register, handleSubmit, errors} = useForm();
                   className="form-control"
                   placeholder="Subject"
                   name="subject"
+                  {...register( 'test' , {
+                    required: "You need to add a subject",
+                  })
+               }
                 />
                 <div className="line"></div>
               </div>
             </div>
+            <span className="error-message">
+                {errors && errors.subject && errors.subject.message}
+              </span>
             <div className="col-md-6 col-xs-12">
               {/* Description  */}
               <div className="text-center">
@@ -105,9 +131,16 @@ const {register, handleSubmit, errors} = useForm();
                   className="form-control"
                   placeholder="Tell me about it."
                   name="description"
+                  {...register( 'test' , {
+                    required: "You need to add a description",
+                  })
+               }
                 ></textarea>
                 <div className="line"></div>
               </div>
+              <span className="error-message">
+                {errors && errors.description && errors.description.message}
+              </span>
               <button className="btn-main-offer contact-btn" type="submit">
                 CONTACT ME
               </button>

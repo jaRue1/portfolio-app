@@ -12,10 +12,10 @@ function TestimonialCarousel() {
   let rec2 = "Vitoria Rojas"
   let rec3 = "Jonah Allen"
   let rec4 = "Kevin Choi"
-  let rec5 = "Donald "
-  let rec6 = "Maria "
-  let rec7 = "Aliyah"
-  let array = []
+  // let rec5 = "Donald "
+  // let rec6 = "Maria "
+  // let rec7 = "Aliyah"
+  // let array = []
   return (
     <Carousel
       showArrows={true}
