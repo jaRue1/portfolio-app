@@ -560,6 +560,9 @@ input.form-control{
 textarea.form-control{
   margin: -0.3rem 0;
 }
+.form-class{
+  width: 100% !important;
+}
 /* --------------  Media Contact Inputs -------------------- */
 @media(max-width: 786px){
   .contact{

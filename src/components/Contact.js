@@ -41,11 +41,12 @@ console.log(register)
       <div className="text-center">
         <h2> Let's Connect </h2>
         <p>Please fill out the form below.</p>
+        <span className="success-message">{successMessage}</span>
       </div>
       <div className="container">
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="row">
-            <div className="col-md-6 col-xs-12">
+            <div className="col-md-6 col-xs-12 form-class">
               {/* Name Input Field */}
               <div className="text-center">
                 <input
@@ -123,7 +124,7 @@ console.log(register)
             <span className="error-message">
                 {errors && errors.subject && errors.subject.message}
               </span>
-            <div className="col-md-6 col-xs-12">
+            <div className="col-md-6 col-xs-12 form-class">
               {/* Description  */}
               <div className="text-center">
                 <textarea
