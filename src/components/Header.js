@@ -12,7 +12,7 @@ function Header() {
         backSpeed={40}
         loop
       />
-        {/* <a href="#" className="btn-main-offer">Contact Me</a> */}
+        {/* <a href="#" className="btn-main-offer">My Resume</a> */}
       </div>
       <div className="overflow-header"></div>
     </div>
