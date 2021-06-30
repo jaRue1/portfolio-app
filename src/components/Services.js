@@ -19,7 +19,7 @@ const Services = () => {
               <div className="box">
               <div className="circle"><FontAwesomeIcon className='icon' icon={faGithub} size="2x"/></div>
                 <h3>Git</h3>
-                <p>I have worked on larger projects and resolve complex merge conflicts. </p>
+                <p>I am familiar with git and follow the best practices when developing software such as branching, testing, and resolving merge conflicts. </p>
               </div>
             </div> 
             <div className="col-lg-3 col-md-6 col-sm-6">
