@@ -106,6 +106,7 @@ const popupboxConfigPortfolio = {
       <img className="portfolio-image-popupbox" src={taskManager} alt="Desktop"/>
       <p>Static product page built with HTML and CSS </p>
       <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/MyPracticeHTML-CSS/tree/main/landingPage")}>Take a Look</a>
+      <br/>
       <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("http://phonolandingpage.s3-website-us-east-1.amazonaws.com/")}>Continue</a>
       </>
       )
