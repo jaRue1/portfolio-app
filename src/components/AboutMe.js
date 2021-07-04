@@ -19,11 +19,18 @@ const AboutMe = () => {
            a engineer but also as a person. I love merging my skills of coding with my passions such as sports and music. The fun thing about coding is that there are no 
            limits on what you can do with it. The only real boundaries are the ones that you set yourself ! 
           </p>
-          <h2 className= 'about-heading'>My Passions</h2>
+          <h2 className= 'about-heading'>My Hobbies</h2>
           <p>
-            For me I have always looked for ways to help people, make a change, have an impact. However, the road to finding out how I could do such a thing has been rocky
-            and riddle with failures. Until now, some of my passion such as music, sports and education can all be tied into coding and displayed to the world. Making an impact
-            and using code as a medium to do so is the most rewarding thing of all.
+           
+            <ul>
+              <li>Music production</li>
+              <li>Beat Making</li>
+              <li>Boxing</li>
+              <li>Golf</li>
+              <li>Drone Videography</li>
+              <li>Designing Apparel</li>
+              <li>Building clones of my favorite websites / applications.</li>
+              </ul>
           </p>
         </div>
         
