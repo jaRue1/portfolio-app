@@ -30,7 +30,6 @@ const openPopupboxLinkx = () => {
     <br/>
     The application showcases full C.R.U.D functionality.
   </p>
-  <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("http://majorlinkx.io.s3-website-us-east-1.amazonaws.com/")}>Try it!</a>
   <br/>
   <b>GitHub: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/majorlinkx.io")}>Take a Look</a>
   </>
