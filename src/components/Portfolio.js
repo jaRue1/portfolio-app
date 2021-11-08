@@ -3,10 +3,10 @@ import majorLinkx from '../images/my-images/majorlinkx.png'
 import portfolio from '../images/my-images/portfolio.png'
 import affirm from '../images/my-images/affirm.png'
 import taskManager from '../images/my-images/productPage.png'
+import AmazonClone from '../images/my-images/amz-clone.png'
 // Font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
-
 import {PopupboxManager, PopupboxContainer} from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css"
 
@@ -122,6 +122,33 @@ const popupboxConfigPortfolio = {
         fadeInSpeed: 500,
      } 
 
+       // Desktop web app
+    const openPopupboxAmz= () => {
+      const content = (
+      <>
+      <h2>Amazon Clone</h2>
+      <img className="portfolio-image-popupbox" src={AmazonClone} alt="Desktop"/>
+      <p>Built with React and Firebase. This app allows users to sign in and place orders users can also see a log of the orders they placed.
+        <br/> 
+        I used stripe for the payment processing , cloud functions for my api and firestore for my database.
+      </p>
+      <b>Github: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/amazon-clone")}>Take a Look</a>
+      <br/>
+      <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("https://clone-jj.web.app/")}>Continue</a>
+      </>
+      )
+      PopupboxManager.open({content})
+      
+    }
+    const popupboxConfigAmz = {
+        titleBar: {
+          enable: true,
+          text: "My Applications"
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+     } 
+
 
   return (
    <div id='portfolio' className="portfolio-wrapper">
@@ -158,12 +185,21 @@ const popupboxConfigPortfolio = {
          <div className="overflow"></div>
          <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus}/>
         </div>
+        {/*  */}
+
+        <div className="portfolio-image-box" onClick={openPopupboxAmz}>
+         <img className="portfolio-images" src={AmazonClone} alt="Amazon Clone" />
+         <div className="overflow"></div>
+         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus}/>
+        </div>
        </div>
      </div>
      <PopupboxContainer {...popupboxConfigLinkx}/>
      <PopupboxContainer {...popupboxConfigRestaurants}/>
      <PopupboxContainer {...popupboxConfigPortfolio}/>
      <PopupboxContainer {...popupboxConfigDesktop}/>
+     <PopupboxContainer {...popupboxConfigAmz}/>
+
    </div>
   )
 }
