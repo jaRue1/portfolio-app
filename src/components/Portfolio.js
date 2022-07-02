@@ -1,5 +1,6 @@
 import React from 'react'
 import majorLinkx from '../images/my-images/majorlinkx.png'
+import trelloClone from '../images/my-images/trello-clone.png'
 import portfolio from '../images/my-images/portfolio.png'
 import affirm from '../images/my-images/affirm.png'
 import taskManager from '../images/my-images/productPage.png'
@@ -16,44 +17,45 @@ import "react-popupbox/dist/react-popupbox.css"
 function Portfolio() {
 
 // Need to trouble shoot why titles are rendering the same for each popup
+  // still don't know why its happening ?????
 
-  // Project Linkx
-const openPopupboxLinkx = () => {
+  // Project Trello Clone
+const openPopupboxTrello = () => {
   const content = (
   <>
-  <h2>Majorlinkx.io project</h2>
-  <img className="portfolio-image-popupbox" src={majorLinkx} alt="linkx"/>
+  <h2>Trello clone</h2>
+  <img className="portfolio-image-popupbox" src={trelloClone} alt="Trello Clone"/>
   <p>
-    This is a social media application built with React, Express, Node and MongoDB deployed to AWS. 
+    This application built with Nuxt, Nest, Node and Firebase deployed to Google Cloud. 
     <br/>
-    For music industry professionals to display all their work and connect.
+    
     <br/>
     The application showcases full C.R.U.D functionality.
   </p>
-  <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("http://majorlinkx.io.s3-website-us-east-1.amazonaws.com/")}>Try it !</a>
+  <b>Demo: </b><a className="hyper-link" onClick= {() => window.open("https://kanban-clone-jj.web.app/")}>Try it !</a>
   <br/>
-  <b>GitHub: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/majorlinkx.io")}>Take a Look</a>
+  <b>GitHub: </b><a className="hyper-link" onClick= {() => window.open("https://github.com/jaRue1/trello-clone")}>Take a Look</a>
   </>
   )
   PopupboxManager.open({content})
   
 }
-const popupboxConfigLinkx = {
+const popupboxConfigTrello = {
     titleBar: {
       enable: false,
-      text: ""
+      // text: "My Applications"
     },
     fadeIn: true,
     fadeInSpeed: 500,
- } 
+} 
 
 
-   // Restaurants web app
-const openPopupboxRestaurants = () => {
+   // Affirmations Web App
+const openPopupboxAffirm = () => {
   const content = (
   <>
   <h2>Affirmations Web App</h2>
-  <img className="portfolio-image-popupbox" src={affirm} alt="Restaurants"/>
+  <img className="portfolio-image-popupbox" src={affirm} alt="Affirmations"/>
   <p>
     Application built with React, Express, Node and Firestore. 
     <br/>
@@ -67,14 +69,14 @@ const openPopupboxRestaurants = () => {
   PopupboxManager.open({content})
   
 }
-const popupboxConfigRestaurants = {
+const popupboxConfigAffirm = {
     titleBar: {
       enable: false,
-      text: ""
+      // text: "My Test"
     },
     fadeIn: true,
     fadeInSpeed: 500,
- } 
+} 
 
     // Portfolio web app
 const openPopupboxPortfolio = () => {
@@ -92,14 +94,14 @@ const openPopupboxPortfolio = () => {
 const popupboxConfigPortfolio = {
     titleBar: {
       enable: false,
-      text: ""
+      // text: "My Applications"
     },
     fadeIn: true,
     fadeInSpeed: 500,
- } 
+} 
 
     // Desktop web app
-    const openPopupboxDesktop = () => {
+const openPopupboxDesktop = () => {
       const content = (
       <>
       <h2>Custom Landing Page</h2>
@@ -112,18 +114,18 @@ const popupboxConfigPortfolio = {
       )
       PopupboxManager.open({content})
       
-    }
-    const popupboxConfigDesktop = {
+}
+const popupboxConfigDesktop = {
         titleBar: {
-          enable: true,
-          text: "My Applications"
+          enable: false,
+          // text: "My Applications"
         },
         fadeIn: true,
         fadeInSpeed: 500,
-     } 
+} 
 
        // Desktop web app
-    const openPopupboxAmz= () => {
+const openPopupboxAmz= () => {
       const content = (
       <>
       <h2>Amazon Clone</h2>
@@ -139,15 +141,15 @@ const popupboxConfigPortfolio = {
       )
       PopupboxManager.open({content})
       
-    }
-    const popupboxConfigAmz = {
+}
+const popupboxConfigAmz = {
         titleBar: {
-          enable: true,
-          text: "My Applications"
+          enable: false,
+          // text: "My Applications"
         },
         fadeIn: true,
         fadeInSpeed: 500,
-     } 
+} 
 
 
   return (
@@ -156,36 +158,29 @@ const popupboxConfigPortfolio = {
        <div className="h1 text-uppercase text-center py-5">portfolio</div>
        <div className="image-box-wrapper">
          
-        <div className="portfolio-image-box" onClick={openPopupboxLinkx}>
-          <img className="portfolio-images" src={majorLinkx} alt=" majorlinkx web app" />
+        <div className="portfolio-image-box" onClick={openPopupboxTrello}>
+          <img className="portfolio-images" src={trelloClone} alt="trello clone web app" />
           <div className="overflow"></div>
           <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus}/>
         </div>
-       
-       {/*  */}
       
-        <div className="portfolio-image-box"onClick={openPopupboxRestaurants}>
-         <img className="portfolio-images" src={affirm} alt="restaurant web app" />
+        <div className="portfolio-image-box"onClick={openPopupboxAffirm}>
+         <img className="portfolio-images" src={affirm} alt="affirmations web app" />
          <div className="overflow"></div>
          <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus}/>
         </div>
-       
-       {/*  */}
        
         <div className="portfolio-image-box" onClick={openPopupboxPortfolio} >
          <img className="portfolio-images" src={portfolio} alt="portolio web app" />
          <div className="overflow"></div>
          <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus}/>
         </div>
-    
-       {/*  */}
       
         <div className="portfolio-image-box" onClick={openPopupboxDesktop}>
          <img className="portfolio-images" src={taskManager} alt="Desktop app" />
          <div className="overflow"></div>
          <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus}/>
         </div>
-        {/*  */}
 
         <div className="portfolio-image-box" onClick={openPopupboxAmz}>
          <img className="portfolio-images" src={AmazonClone} alt="Amazon Clone" />
@@ -194,8 +189,9 @@ const popupboxConfigPortfolio = {
         </div>
        </div>
      </div>
-     <PopupboxContainer {...popupboxConfigLinkx}/>
-     <PopupboxContainer {...popupboxConfigRestaurants}/>
+  
+     <PopupboxContainer {...popupboxConfigTrello}/>
+     <PopupboxContainer {...popupboxConfigAffirm}/>
      <PopupboxContainer {...popupboxConfigPortfolio}/>
      <PopupboxContainer {...popupboxConfigDesktop}/>
      <PopupboxContainer {...popupboxConfigAmz}/>
