@@ -23,14 +23,9 @@ const AboutMe = () => {
           <p>
            
             <ul>
-              <li>Music production</li>
-              <li>Beat Making</li>
-              <li>Boxing</li>
               <li>Golf</li>
-              <li>Drone Videography</li>
-              <li>Designing Apparel</li>
-              <li>Building clones of my favorite websites / applications.</li>
-              </ul>
+              <li> Building clones of my favorite websites / applications. </li>
+            </ul>
           </p>
         </div>
         
