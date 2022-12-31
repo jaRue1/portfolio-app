@@ -27,10 +27,10 @@ function Experience() {
           <div className="timeline-content">
             <h3>2019</h3>
             <p>
-              <b>Junior Developer Incapital:</b> Troubleshoot various errors on Website
-              platform (incapnet). Used C# object-oriented design to correct
-              errors as well as generate new logic to prevent similar errors
-              from ever occurring within MVC applications
+              <b>Junior Developer Incapital:</b> Troubleshoot various errors on
+              Website platform (incapnet). Used C# object-oriented design to
+              correct errors as well as generate new logic to prevent similar
+              errors from ever occurring within MVC applications
             </p>
           </div>
         </div>
@@ -81,6 +81,32 @@ function Experience() {
         </div>
         {/*  */}
         <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>2022 </h3>
+            <p>
+              <b>AWS Certified Developer – Associate</b> I earned this
+              certification by having a comprehensive understanding of
+              application life-cycle management. I demonstrated proficiency in
+              writing applications with AWS service APIs, AWS CLI, and SDKs;
+              using containers; and deploying with a CI/CD pipeline. I am able
+              to develop, deploy, and debug cloud-based applications that follow
+              AWS best practices.
+              <br></br>
+              <br></br>
+              <b>
+                <a
+                  href="https://www.credly.com/badges/71b8fb33-2255-4c0c-bc47-d62aa2fe1b9b/linked_in_profile"
+                  target={"_blank"}
+                >
+                  My Credentials
+                </a>
+              </b>
+            </p>
+          </div>
+        </div>
+        {/*  */}
+        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2022 - Present</h3>
